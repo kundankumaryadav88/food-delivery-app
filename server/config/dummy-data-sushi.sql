@@ -1,6 +1,6 @@
 -- Sushi Restaurant Menus
+-- Sushi Master Menu
 INSERT INTO food_items (user_id, name, description, price, category, is_veg, image_url) VALUES
--- Sushi Master
 ((SELECT id FROM users WHERE email = 'sushi.master@example.com'), 'California Roll', 'Crab, avocado, and cucumber', 8.99, 'sushi', false, 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500'),
 ((SELECT id FROM users WHERE email = 'sushi.master@example.com'), 'Spicy Tuna Roll', 'Fresh tuna with spicy mayo', 9.99, 'sushi', false, 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500'),
 ((SELECT id FROM users WHERE email = 'sushi.master@example.com'), 'Vegetable Roll', 'Assorted fresh vegetables', 7.99, 'sushi', true, 'https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500'),

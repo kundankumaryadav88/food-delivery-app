@@ -15,13 +15,13 @@ INSERT INTO users (name, email, password, role) VALUES
 ('Udupi Palace', 'udupi.palace@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Kerala Kitchen', 'kerala.kitchen@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 
--- Chinese & Asian Fusion
+-- Chinese and Asian Fusion
 ('Dragon Palace', 'dragon.palace@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Wok & Roll', 'wok.roll@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Asian Fusion', 'asian.fusion@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Oriental Bites', 'oriental.bites@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 
--- Italian & Continental
+-- Italian and Continental
 ('Pizza Paradise', 'pizza.paradise@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Pasta House', 'pasta.house@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
 ('Continental Corner', 'continental@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'restaurant'),
@@ -39,8 +39,8 @@ INSERT INTO users (name, email, password, role) VALUES
 ('Alice User', 'alice@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'customer');
 
 -- Include menu items from all categories
-\i config/dummy-data-northindian.sql
-\i config/dummy-data-southindian.sql
-\i config/dummy-data-chinese.sql
-\i config/dummy-data-italian.sql
-\i config/dummy-data-fastfood.sql
+-- Import northindian.sql content here
+-- Import southindian.sql content here
+-- Import chinese.sql content here
+-- Import italian.sql content here
+-- Import fastfood.sql content here
