@@ -4,7 +4,8 @@ const pool = require('./database'); // Adjust path if needed
 
 // Order matters! schema.sql first to create tables, then categories to create users, then other files
 const sqlFiles = [
-  'schema.sql',           // Create tables
+  'schema.sql',
+  'address-schema.sql'// Create tables
   'dummy-data-categories.sql',  // Create restaurant users
   'dummy-data-burger.sql',      // Add menu items
   'dummy-data-pizza.sql',
@@ -15,7 +16,8 @@ const sqlFiles = [
   'dummy-data-italian.sql',
   'dummy-data-fastfood.sql',
   'dummy-data-dessert.sql',
-  'dummy-data-drinks.sql'
+  'dummy-data-drinks.sql',
+  'dummy-data-combined.sql',
 ];
 
 const runSeeds = async () => {
