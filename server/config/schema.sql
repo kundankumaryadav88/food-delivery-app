@@ -2,6 +2,7 @@
 DROP TABLE IF EXISTS order_items;
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS food_items;
+DROP TABLE IF EXISTS addresses;
 DROP TABLE IF EXISTS users;
 
 -- Users Table

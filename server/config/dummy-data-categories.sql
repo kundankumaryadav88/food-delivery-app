@@ -30,10 +30,10 @@ INSERT INTO users (name, email, password, role) VALUES
 ('Alice User', 'alice@example.com', '$2a$10$BDjzyn8F3ZZU7XPOdQY3/OViIkj5aSGQj5cANXx46Do5XH8zE8Lw2', 'customer');
 
 -- Include menu items from all categories
-\i config/dummy-data-pizza.sql
-\i config/dummy-data-burger.sql
-\i config/dummy-data-sushi.sql
-\i config/dummy-data-northindian.sql
-\i config/dummy-data-chinese.sql
-\i config/dummy-data-dessert.sql
-\i config/dummy-data-drinks.sql
+-- Import pizza.sql content here
+-- Import burger.sql content here
+-- Import sushi.sql content here
+-- Import northindian.sql content here
+-- Import chinese.sql content here
+-- Import dessert.sql content here
+-- Import drinks.sql content here
