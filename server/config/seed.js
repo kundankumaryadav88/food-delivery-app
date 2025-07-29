@@ -17,7 +17,6 @@ const sqlFiles = [
   'dummy-data-fastfood.sql',
   'dummy-data-dessert.sql',
   'dummy-data-drinks.sql',
-  'dummy-data-combined.sql',
 ];
 
 const runSeeds = async () => {
